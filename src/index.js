@@ -30,6 +30,12 @@ app.get("/divide", (req, res) => {
   res.json({ result: result });
 });
 
+app.get('/power', (req, res) => {
+  const { a, b } = req.query;
+  const result = Math.pow(parseFloat(a), parseFloat(b));
+  res.json({ result: result });
+});
+
 app.listen(port, () => {
   console.log(`Servidor escuchando en http://localhost:${port}`);
 });

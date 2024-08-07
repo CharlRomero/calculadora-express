@@ -22,4 +22,9 @@ describe("Calculator API", () => {
     const response = await request(app).get("/divide?a=10&b=2");
     expect(response.body.result).toBe(5);
   });
+
+  test('should calculate the power of a number', async () => {
+    const response = await request(app).get('/power?a=2&b=3');
+    expect(response.body.result).toBe(8);
+  });
 });
