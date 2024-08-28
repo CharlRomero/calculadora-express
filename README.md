@@ -15,11 +15,11 @@ Para instalar y ejecutar esta aplicación, sigue los pasos a continuación:
 2. **Instala las Dependencias**
    
    ```bash
-    pnpm install
+    npm install
 3. **Ejecuta la Aplicación**
    
    ```bash
-    pnpm run dev
+    npm run dev
    
 ## Endpoints
 
@@ -52,10 +52,10 @@ Para instalar y ejecutar esta aplicación, sigue los pasos a continuación:
   - **Parámetros de Consulta:** `a` (base), `b` (exponente)
   - **Respuesta:** `{ result: <resultado> }`
     
-## Pruebas Unitarias
+## Pruebas Unitarias e Integración
 
-**Para la ejecución de las pruebas unitarias, utiliza el siguiente comando**
+**Para la ejecución de las pruebas unitarias y de integración, utiliza el siguiente comando**
 ```bash
-  pnpm test
+  npm test
 ```
 
